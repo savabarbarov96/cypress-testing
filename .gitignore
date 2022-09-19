@@ -1,0 +1,8 @@
+node_modules/
+mochawesome-report/
+fixtures/
+screenshots/
+support/
+videos/
+2-advanced-examples/
+1-getting-started/
