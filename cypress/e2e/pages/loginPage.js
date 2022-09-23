@@ -7,7 +7,8 @@ export class LoginPage{
     username_textbox = "[name = 'username']"
     password_textbox = "[name = 'password']"
     login_button = ".oxd-button"
-    user_logged_in = ".oxd-userdropdown-tab"
+    user_logged_in = ".oxd-userdropdown-tab" 
+    find_employee = ':nth-child(2) > .oxd-input'
 
     enterUsername(username){
         cy.get(this.username_textbox).click().type(username)
@@ -23,5 +24,9 @@ export class LoginPage{
 
     verifyLogin(){
         cy.get(this.user_logged_in).click()
+    }
+
+    findEmployee(employeeID){
+        cy.get(this.find_employee).click().type(employeeID)
     }
 }
