@@ -13,6 +13,7 @@
     "cypress": "^10.8.0"
   },
   "devDependencies": {
-    "cypress-file-upload": "^5.0.8"
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.2.2"
   }
 }
